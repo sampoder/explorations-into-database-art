@@ -98,8 +98,8 @@ export default function Page({ jokes }) {
             sx={{
               height: '200px',
               width: '200px',
-              borderRadius: 0,
-              overflow: 'hidden',
+              borderRadius: 6,
+              overflow: 'hidden'
             }}
             onClick={() => alert(joke.joke)}
           >
