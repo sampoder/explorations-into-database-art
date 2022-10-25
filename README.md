@@ -1,4 +1,4 @@
-# ✨ 🌈 ⚡ An Exploration into Creating Art from Databases
+# An Exploration into Creating Art from Databases
 
 I gave this lightning talk at [Geekcamp Singapore 2022](https://geekcamp.sg/); a video is coming soon! View the slides [here](https://docs.google.com/presentation/d/1h-o2oOY9kYxrG8SrkzULx_yuDH_LpL6HxJStao52FQA/edit?usp=sharing).
 
