@@ -62,8 +62,8 @@ export default function Page({ jokes }) {
         (firstNumberInString(toHex(data[data.length - 1].joke)) / 9)*8
       ))
       synth.triggerAttackRelease(
-        `${firstLetterInString(toHex(data[data.length - 1].joke))}${Math.floor(
-          (firstNumberInString(toHex(data[data.length - 1].joke)) / 9) * 8
+        `${firstLetterInString(toHex(data[0].joke))}${Math.floor(
+          (firstNumberInString(toHex(data[0].joke)) / 9) * 8
         )}`,
         `8n`,
         Tone.now(),
