@@ -1,7 +1,7 @@
 import prisma from '../../lib/prisma'
 
 export async function getJokes() {
-  return await prisma.joke.findMany()
+  return await prisma.joke.findMany().then(r => r.reverse())
 }
 
 export default async function resolver(req, res) {
